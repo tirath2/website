@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, Phone, Linkedin, Github,ArrowLeft } from 'lucide-react';
 import Photo from '../assets/photo.jpeg'
+import CV from '../assets/TIRATH_BHUVA_REACT_NATIVE.pdf'
 const UserInfo= ({goBack}) => {
   return (
     <div className="flex flex-col items-center bg-gray-100 min-h-screen pt-10">
@@ -35,6 +36,13 @@ const UserInfo= ({goBack}) => {
             <Github className="w-5 h-5 text-gray-500 mr-3" />
             <span className="text-gray-700">github.com</span>
           </a>
+           <a
+                      href={CV}
+                      download
+                      className="inline-block mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition"
+                    >
+                      Download CV
+                    </a>
         </div>
       </div>
     </div>

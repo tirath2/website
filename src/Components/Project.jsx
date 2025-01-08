@@ -35,7 +35,7 @@ Built with **NestJS** for backend services and a sleek, responsive **ReactJS** f
       "Frontend: Developed using ReactJS, offering a clean, dynamic interface for smooth navigation and task management.",
       "Chrome Extension: Captures real-time logs and API call data while users interact with applications.",
     ],
-    github: ["https://github.com/yourgithub/buggy-backend", "https://github.com/yourgithub/buggy-frontend"],
+    github: ["https://github.com/tirath2/buggy","https://github.com/tirath2/Buggy-user-service","https://github.com/tirath2/buggy-task-service","https://github.com/tirath2/buggy-log-service","https://github.com/tirath2/buggy-extention"],
     images: [Bug1,Bug2,Bug3,Bug4,Bug5,Bug6,Bug7,Bug8,Bug9,Bug10],
   },
   {
@@ -51,7 +51,7 @@ The system is built with **NestJS** for the backend, ensuring scalability and pe
       "Billing System: Generate detailed bills with multiple payment options, including split payments.",
       "Inventory Management: Track stock levels, manage suppliers, and generate low-stock alerts.",
     ],
-    github: ["https://github.com/yourgithub/restaurant-backend", "https://github.com/yourgithub/restaurant-frontend"],
+    github: ["tirath2/restaurent-management-fe", "https://github.com/tirath2/restaurent-be"],
     images: [Res1,Res2,Res3,Res4,Res5,Res6,Res7],
   },
 ];
@@ -118,7 +118,7 @@ const Projects = ({goBack}) => {
           ))}
         </div>
       ) : (
-        <div className="p-6 bg-white shadow-lg rounded-lg">
+        <div className="p-6 bg-white shadow-lg rounded-lg h-5/6  overflow-auto">
           <button
             onClick={handleCloseDetails}
             className="bg-red-500 text-white px-4 py-2 rounded mb-4"
